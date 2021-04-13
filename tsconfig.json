@@ -3,7 +3,7 @@
     "target": "es5",
     "lib": ["esnext", "dom"],
     "outDir": "lib",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "module": "commonjs",
     "declaration": true,
     "declarationMap": true,
@@ -22,6 +22,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true
   },
   "include": ["src"],

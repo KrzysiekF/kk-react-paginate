@@ -23,13 +23,9 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        env:
-          CI: ""
         run: npm test
 
       - name: Build Step
-        env:
-          CI: ""
         run: npm run build
 
       - name: Deploy Storybook
