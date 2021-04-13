@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["es2015", "dom"],
+    "lib": ["esnext", "dom"],
     "outDir": "lib",
     "jsx": "react",
     "module": "commonjs",
