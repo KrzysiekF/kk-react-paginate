@@ -1,6 +1,6 @@
 {
   "name": "kk-react-paginate",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "author": "Krzysztof Furtak",
   "description": "Pagination component for ReactJS",
   "keywords": [
