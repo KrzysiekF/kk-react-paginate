@@ -20,7 +20,7 @@ jobs:
           node-version: '14.15.0'
 
       - name: Install Pacakges
-        run: npm ci
+        run: yarn
 
       - name: Build Step
         run: yarn run build
