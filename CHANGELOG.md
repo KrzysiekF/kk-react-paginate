@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.0.0...v1.1.0) (2021-04-13)
+
+
+### Features
+
+* **CI:** deploy storybook ([3a35a41](https://github.com/KrzysiekF/kk-react-paginate/commit/3a35a41dc686304553c5a2091111a982b49468e0))
+
 # 1.0.0 (2021-04-13)
 
 
