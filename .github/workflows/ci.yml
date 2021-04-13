@@ -23,12 +23,12 @@ jobs:
         run: npm ci
 
       - name: Build Step
-        run: npm run build
+        run: yarn run build
 
       - name: Deploy Storybook
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npm run deploy-storybook -- --ci
+        run: yarn run deploy-storybook -- --ci
 
       - name: Run Semantic Release
         run: npx semantic-release
