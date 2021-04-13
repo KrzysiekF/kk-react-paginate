@@ -16,6 +16,9 @@
     "lib": "lib"
   },
   "files": [
+    "CHANGELOG.md",
+    "package.json",
+    "package-lock.json",
     "lib"
   ],
   "repository": {
