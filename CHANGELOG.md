@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.1.4...v1.1.5) (2021-04-13)
+
+
+### Bug Fixes
+
+* build problem ([4d7f9a1](https://github.com/KrzysiekF/kk-react-paginate/commit/4d7f9a10a32dfa9d434a647c673d28ff9ad2ef34))
+
 ## [1.1.4](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.1.3...v1.1.4) (2021-04-13)
 
 
