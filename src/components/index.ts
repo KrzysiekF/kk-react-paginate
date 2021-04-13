@@ -1,1 +1,1 @@
-export { default as Button } from './paginate';
+export { default as Paginate } from './paginate';
