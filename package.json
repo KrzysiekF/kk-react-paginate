@@ -10,7 +10,7 @@
     "paginator"
   ],
   "license": "MIT",
-  "main": "lib/src/index.js",
+  "main": "lib/index.js",
   "private": false,
   "directories": {
     "lib": "lib"
