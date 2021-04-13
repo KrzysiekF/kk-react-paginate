@@ -1,6 +1,6 @@
 # KK React Pagination
 
-[![npm package](https://img.shields.io/npm/v/kk-react-pagination.png?style=flat-square)](https://www.npmjs.org/package/kk-react-paginate)
+[![npm package](https://img.shields.io/npm/v/kk-react-paginate.png?style=flat-square)](https://www.npmjs.org/package/kk-react-paginate)
 
 Pagination component for ReactJS
 

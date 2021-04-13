@@ -1,10 +1,10 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import { render } from '@testing-library/react';
 
 import Paginate, { Props } from '.';
 
 const generateElements = (count: number) => {
-    const data: Array<ReactElement> = [];
+    const data: Array<React.ReactElement> = [];
 
     for (let i = 1; i <= count; i++) {
         data.push(<div key={i}>Element #{i}</div>);
