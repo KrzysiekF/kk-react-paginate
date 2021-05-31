@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.2.0...v1.3.0) (2021-05-31)
+
+
+### Features
+
+* New prop - emptyListMsg - Message displayed when data is empty ([8403cc0](https://github.com/KrzysiekF/kk-react-paginate/commit/8403cc0bad1d39942e9701ecc1f1f69a8e88534c))
+
 # [1.2.0](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.1.12...v1.2.0) (2021-05-31)
 
 
