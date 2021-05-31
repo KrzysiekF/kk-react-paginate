@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.1.12...v1.2.0) (2021-05-31)
+
+
+### Features
+
+* New prop - nextLabel ([a9991fd](https://github.com/KrzysiekF/kk-react-paginate/commit/a9991fd456629ff5a4d9150e5aaf9919a48ae95b))
+
 ## [1.1.12](https://github.com/KrzysiekF/kk-react-paginate/compare/v1.1.11...v1.1.12) (2021-04-13)
 
 
