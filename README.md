@@ -30,6 +30,8 @@ Options
 |-------------|-----------------|-------------|
 | `data`  | `[]` (`Array<Element>`)  |             |
 | `pageSize`  | `5` (`number`)  |             |
-| `nextLabel`  | `»` (`string | Element`)  |             |
-| `prevLabel`  | `«` (`string | Element`)  |             |
+| `nextLabel`  | `»` (`string` or `Element`)  |             |
+| `prevLabel`  | `«` (`string` or `Element`)  |             |
 | `displayedPages`  | `5` (`number`)  | How many page numbers should be visible while navigating. |
+| `emptyListMsg`  | `Nothing to display` (`string` or `Element`)  |  |
+| `align`  | `center` (`left` or `center` or `right`)  |  |
