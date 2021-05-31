@@ -18,8 +18,8 @@ stories.addParameters({
 stories.add('default', () => {
     const data: Array<ReactElement> = [];
 
-    for (let i = 0; i < 15; i++) {
-        data.push(<div>Element #{i + 1} </div>);
+    for (let i = 0; i < 150; i++) {
+        data.push(<div key={i}>Element #{i + 1} </div>);
     }
 
     return <Paginate data={data} />;

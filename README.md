@@ -28,5 +28,8 @@ Options
 
 | option      | default         | description |
 |-------------|-----------------|-------------|
-| `data`  | `[]` (`Array<ReactElement>`)  |             |
+| `data`  | `[]` (`Array<Element>`)  |             |
 | `pageSize`  | `5` (`number`)  |             |
+| `nextLabel`  | `»` (`string | Element`)  |             |
+| `prevLabel`  | `«` (`string | Element`)  |             |
+| `displayedPages`  | `5` (`number`)  | How many page numbers should be visible while navigating. |
