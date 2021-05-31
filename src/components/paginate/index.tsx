@@ -9,6 +9,8 @@ export interface Props {
     displayedPages?: number;
     nextLabel?: string | JSX.Element;
     prevLabel?: string | JSX.Element;
+    emptyListMsg?: string | JSX.Element;
+    align?: 'left' | 'center' | 'right';
 }
 
 const Paginate = ({
@@ -17,18 +19,20 @@ const Paginate = ({
     nextLabel = '»',
     prevLabel = '«',
     displayedPages = 5,
+    emptyListMsg = 'Nothing to display',
+    align = 'center',
 }: Props): React.ReactElement | null => {
-    if (!data) {
-        return null;
-    }
-
     const pagesCount = PagerCalculations.pagesCount(data.length, pageSize);
-    const stylesClasses = useStyles();
+    const stylesClasses = useStyles({ theme: { align } });
     const [currentPage, setCurrentPage] = useState(1);
     let prevSpaceAdded = false;
     let nextSpaceAdded = false;
 
     const renderList = () => {
+        if (!data.length) {
+            return emptyListMsg;
+        }
+
         return data.map((element, index) =>
             PagerCalculations.canDisplayElement(index, currentPage, pageSize) ? element : null,
         );
@@ -60,6 +64,14 @@ const Paginate = ({
 
     const renderPaginationButtons = () => {
         const buttons: Array<ReactElement> = [];
+
+        if (!pagesCount) {
+            buttons.push(
+                <li className={stylesClasses.active} key={`krp-button-${1}`}>
+                    <button onClick={() => goToPage(1)}>{1}</button>
+                </li>,
+            );
+        }
 
         for (let i = 1; i <= pagesCount; i++) {
             if (PagerCalculations.shouldShowPageButton(i, currentPage, displayedPages, pagesCount)) {

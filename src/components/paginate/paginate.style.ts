@@ -1,13 +1,19 @@
 import { createUseStyles } from 'react-jss';
 import globalStyles from '../../style/globalStyle';
 
-export default createUseStyles(() => ({
+interface Props {
+    theme: {
+        align: 'left' | 'center' | 'right';
+    };
+}
+
+export default createUseStyles({
     pagination: {
         listStyle: 'none',
         fontSize: '1rem',
         padding: 0,
         margin: 0,
-        textAlign: 'left',
+        textAlign: ({ theme: { align } }: Props) => align,
         '& li': {
             display: 'inline-block',
         },
@@ -33,4 +39,4 @@ export default createUseStyles(() => ({
             color: globalStyles.colorPrimary,
         },
     },
-}));
+});

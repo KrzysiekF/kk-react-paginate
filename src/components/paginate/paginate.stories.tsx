@@ -18,7 +18,7 @@ stories.addParameters({
 stories.add('default', () => {
     const data: Array<ReactElement> = [];
 
-    for (let i = 0; i < 150; i++) {
+    for (let i = 0; i < 15; i++) {
         data.push(<div key={i}>Element #{i + 1} </div>);
     }
 
